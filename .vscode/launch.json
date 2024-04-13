@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ApiGatewayApplication",
+            "request": "launch",
+            "mainClass": "com.stackroute.apigateway.ApiGatewayApplication",
+            "projectName": "api-gateway"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.stackroute.Main",
+            "projectName": "authentication-service"
+        },
+        {
+            "type": "java",
+            "name": "BookedAppointmentsServiceApplication",
+            "request": "launch",
+            "mainClass": "com.stackroute.bookedappointments.BookedAppointmentsServiceApplication",
+            "projectName": "booked-appointments"
+        },
+        {
+            "type": "java",
+            "name": "EmailapiApplication",
+            "request": "launch",
+            "mainClass": "in.stackroute.EmailapiApplication",
+            "projectName": "email-service"
+        },
+        {
+            "type": "java",
+            "name": "EurekaServerApplication",
+            "request": "launch",
+            "mainClass": "com.stackroute.eurekaserver.EurekaServerApplication",
+            "projectName": "eureka-server"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "com.stackroute.Main",
+            "projectName": "patient-service"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "com.stackroute.Main",
+            "projectName": "payment-gateway"
+        },
+        {
+            "type": "java",
+            "name": "ProductWebappApplication",
+            "request": "launch",
+            "mainClass": "com.stackroute.productwebapp.ProductWebappApplication",
+            "projectName": "product-webapp"
+        },
+        {
+            "type": "java",
+            "name": "Main(3)",
+            "request": "launch",
+            "mainClass": "com.stackroute.Main",
+            "projectName": "recommend-service"
+        }
+    ]
+}
